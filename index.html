@@ -1,0 +1,88 @@
+<!DOCTYPE html>         <!--20:33 Portfolio Website Tutorial - Frontend Development With HTML, CSS, JavaScript -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body class="main-content" onload="wowWow();">
+    
+    
+
+    <div class="controlls">
+        <div class="control control-1 active-btn">
+            <a onclick="homeSectionActive();">
+                <i class="fas fa-home"></i>
+            </a>
+            
+        </div>
+        
+        
+        <div class="control control-2" data-id="about">
+            <a onclick="aboutSectionActive();">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+        
+        
+        <div class="control control-3" data-id="portfolio">
+            <a onclick="portfolioSectionActive();">
+                <i class="fas fa-briefcase"></i>
+            </a>
+        </div>
+
+        
+        <div class="control control-4" data-id="blogs">
+            <a onclick="blogSectionActive();">
+                <i class="fas fa-newspaper"></i>
+            </a>
+        </div>
+
+        
+        <div class="control control-5" data-id="contact">
+            <a onclick="contactSectionActive();">
+                <i class="fas fa-envelope-open"></i>
+            </a>
+        </div>
+        
+        
+    </div>
+
+    <section class="sections">
+        <div id="homeSection" class="homesection">
+            <h1>HOME</h1>
+
+
+        </div>
+        <div id="aboutSection" class="homesection">
+            <h1>ABOUT</h1>
+
+
+        </div>
+        <div id="portfolioSection" class="homesection">
+            <h1>PORTFOLIO</h1>
+
+
+        </div>
+        <div id="blogSection" class="homesection">
+            <h1>BLOG</h1>
+
+
+        </div>
+        <div id="contactSection" class="homesection">
+            <h1>CONTACT</h1>
+            
+
+
+        </div>
+    </section>
+
+</body>
+    <script src="script/script.Js"></script>
+</html>
