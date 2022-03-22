@@ -1,11 +1,11 @@
 var lastUsed;
 
 function homeSectionActive() {
-    document.getElementById("homeSection").style.visibility = "visible";
-    document.getElementById("aboutSection").style.visibility = "hidden";
-    document.getElementById("portfolioSection").style.visibility = "hidden";
-    document.getElementById("blogSection").style.visibility = "hidden";
-    document.getElementById("contactSection").style.visibility = "hidden";
+    document.getElementById("homeSection").style.display = "block";
+    document.getElementById("aboutSection").style.display = "none";
+    document.getElementById("portfolioSection").style.display = "none";
+    document.getElementById("blogSection").style.display = "none";
+    document.getElementById("contactSection").style.display = "none";
 
 
     document.getElementsByClassName("control-1")[0].style.backgroundColor = "rgb(7, 119, 7)";
@@ -20,11 +20,11 @@ function homeSectionActive() {
 
 
 function aboutSectionActive() {
-    document.getElementById("homeSection").style.visibility = "hidden";
-    document.getElementById("aboutSection").style.visibility = "visible";
-    document.getElementById("portfolioSection").style.visibility = "hidden";
-    document.getElementById("blogSection").style.visibility = "hidden";
-    document.getElementById("contactSection").style.visibility = "hidden";
+    document.getElementById("homeSection").style.display = "none";
+    document.getElementById("aboutSection").style.display = "block";
+    document.getElementById("portfolioSection").style.display = "none";
+    document.getElementById("blogSection").style.display = "none";
+    document.getElementById("contactSection").style.display = "none";
 
     document.getElementsByClassName("control-1")[0].style.backgroundColor = "rgb(69,78,86)";
     document.getElementsByClassName("control-2")[0].style.backgroundColor = "rgb(7, 119, 7)";
@@ -38,11 +38,11 @@ function aboutSectionActive() {
 
 
 function portfolioSectionActive() {
-    document.getElementById("homeSection").style.visibility = "hidden";
-    document.getElementById("aboutSection").style.visibility = "hidden";
-    document.getElementById("portfolioSection").style.visibility = "visible";
-    document.getElementById("blogSection").style.visibility = "hidden";
-    document.getElementById("contactSection").style.visibility = "hidden";
+    document.getElementById("homeSection").style.display = "none";
+    document.getElementById("aboutSection").style.display = "none";
+    document.getElementById("portfolioSection").style.display = "block";
+    document.getElementById("blogSection").style.display = "none";
+    document.getElementById("contactSection").style.display = "none";
 
     document.getElementsByClassName("control-1")[0].style.backgroundColor = "rgb(69,78,86)";   
     document.getElementsByClassName("control-2")[0].style.backgroundColor = "rgb(69,78,86)";
@@ -58,11 +58,11 @@ function portfolioSectionActive() {
 
 
 function blogSectionActive() {
-    document.getElementById("homeSection").style.visibility = "hidden";
-    document.getElementById("aboutSection").style.visibility = "hidden";
-    document.getElementById("portfolioSection").style.visibility = "hidden";
-    document.getElementById("blogSection").style.visibility = "visible";
-    document.getElementById("contactSection").style.visibility = "hidden";
+    document.getElementById("homeSection").style.display = "none";
+    document.getElementById("aboutSection").style.display = "none";
+    document.getElementById("portfolioSection").style.display = "none";
+    document.getElementById("blogSection").style.display = "block";
+    document.getElementById("contactSection").style.display = "none";
 
     document.getElementsByClassName("control-1")[0].style.backgroundColor = "rgb(69,78,86)";
     document.getElementsByClassName("control-2")[0].style.backgroundColor = "rgb(69,78,86)";
@@ -77,11 +77,11 @@ function blogSectionActive() {
 
 
 function contactSectionActive() {
-    document.getElementById("homeSection").style.visibility = "hidden";
-    document.getElementById("aboutSection").style.visibility = "hidden";
-    document.getElementById("portfolioSection").style.visibility = "hidden";
-    document.getElementById("blogSection").style.visibility = "hidden";
-    document.getElementById("contactSection").style.visibility = "visible";
+    document.getElementById("homeSection").style.display = "none";
+    document.getElementById("aboutSection").style.display = "none";
+    document.getElementById("portfolioSection").style.display = "none";
+    document.getElementById("blogSection").style.display = "none";
+    document.getElementById("contactSection").style.display = "block";
 
     document.getElementsByClassName("control-1")[0].style.backgroundColor = "rgb(69,78,86)";
     document.getElementsByClassName("control-2")[0].style.backgroundColor = "rgb(69,78,86)";
